@@ -91,22 +91,6 @@ An **agent** is an autonomous system that:
 
 Code
 
----
-
-## 2) Agents
-
-### Definition
-An **agent** is an autonomous system that:
-- **Perceives** its environment through sensors
-- **Thinks/Reasons** using its knowledge
-- **Acts** on the environment through actuators to achieve goals
-
-### Agent Architecture Diagram
-
-┌──────────────────────────────────────┐ │ AGENT ARCHITECTURE │ ├──────────────────────────────────────┤ │ │ │ PERCEPTION DECISION │ │ ┌─────────┐ ┌──────────┐ │ │ │ Sensors │──→ │ Decision │ ──→ │ Actuators │ │ └─────────┘ │ Module │ │ │ │ └──────────┘ │ Wheels, │ │ ▲ │ Motors, │ │ │ │ etc. │ │ ┌──────────────┐ │ │ │ │ Knowledge & │ └─────────┘ │ │ Memory Base │ │ │ └──────────────┘ │ │ ▲ │ │ │ │ │ └───────────────────┘ │ (Feedback Loop) └──────────────────────────────────────┘
-
-Code
-
 ### Agent Function
 
 The agent follows this principle:
