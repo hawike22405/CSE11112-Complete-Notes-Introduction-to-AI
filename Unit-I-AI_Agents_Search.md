@@ -72,7 +72,22 @@ An intelligent system demonstrates:
 
 ### AI Implementation Approaches
 
-┌─────────────────────────────────────┐ │ WAYS TO BUILD AI SYSTEMS │ ├─────────────────────────────────────┤ │ 1. Symbolic Reasoning │ │ → Uses logic and rules │ │ → Example: Expert systems │ │ │ │ 2. Search Algorithms │ │ → Explores possible solutions │ │ → Example: Chess algorithms │ │ │ │ 3. Knowledge Representation │ │ → Stores facts in structured way│ │ → Example: Knowledge graphs │ │ │ │ 4. Machine Learning │ │ → Learns from data │ │ → Example: Neural networks │ │ │ │ 5. Probabilistic Reasoning │ │ → Uses probability theory │ │ → Example: Bayesian networks │ │ │ │ 6. Planning & Optimization │ │ → Plans sequences of actions │ │ → Example: Robot path planning │ └─────────────────────────────────────┘
+
+Code
+
+---
+
+## 2) Agents
+
+### Definition
+An **agent** is an autonomous system that:
+- **Perceives** its environment through sensors
+- **Thinks/Reasons** using its knowledge
+- **Acts** on the environment through actuators to achieve goals
+
+### Agent Architecture Diagram
+
+┌──────────────────────────────────────┐ │ AGENT ARCHITECTURE │ ├──────────────────────────────────────┤ │ │ │ PERCEPTION DECISION │ │ ┌─────────┐ ┌──────────┐ │ │ │ Sensors │──→ │ Decision │ ──→ │ Actuators │ │ └─────────┘ │ Module │ │ │ │ └──────────┘ │ Wheels, │ │ ▲ │ Motors, │ │ │ │ etc. │ │ ┌──────────────┐ │ │ │ │ Knowledge & │ └─────────┘ │ │ Memory Base │ │ │ └──────────────┘ │ │ ▲ │ │ │ │ │ └───────────────────┘ │ (Feedback Loop) └──────────────────────────────────────┘
 
 Code
 
